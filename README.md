@@ -54,9 +54,4 @@ For a detailed explanation of the amplifier operation, calculations, and simulat
 report.pdf
 ```
 
-## Requirements
-
-To open and simulate the circuit, install:
-
-- LTspice
 
