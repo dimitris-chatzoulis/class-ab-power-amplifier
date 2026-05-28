@@ -1,8 +1,11 @@
 # Class-AB Power Amplifier
 
-This repository contains the design and LTspice simulation of a Class-AB power amplifier. The amplifier uses MOS output transistors and bipolar transistors for biasing, driving, and thermal compensation.
-
 The project was developed for an Electronics course at the Aristotle University of Thessaloniki, School of Electrical and Computer Engineering, during the academic year 2023–2024.
+
+For a detailed explanation of the amplifier operation, calculations, and simulation results, see: 
+```text
+report.pdf
+```
 
 ## Overview
 
@@ -13,6 +16,14 @@ The circuit consists of three main stages:
 - a biasing network based on the VBE multiplier principle,
 - a complementary NPN/PNP Darlington driver stage,
 - a complementary common-drain MOSFET output stage.
+
+## Preview
+
+![Input and output transient waveforms](images/input_output_transient_waveforms.png)
+
+![Gate-to-gate bias voltage temperature sweep](images/gate_to_gate_bias_voltage_temperature_sweep.png)
+
+![Quiescent currents temperature sweep](images/quiescent_currents_temperature_sweep.png)
 
 ## Simulation Results
 
@@ -45,13 +56,3 @@ The LTspice simulations verify the following:
 | `images/gate_to_gate_bias_voltage_temperature_sweep.png` | Gate-to-gate bias voltage during the temperature sweep. |
 | `images/quiescent_currents_temperature_sweep.png` | Quiescent currents of the output MOSFETs during the temperature sweep. |
 | `images/input_output_transient_waveforms.png` | Input and output transient waveforms. |
-
-## Report
-
-For a detailed explanation of the amplifier operation, calculations, and simulation results, see:
-
-```text
-report.pdf
-```
-
-
