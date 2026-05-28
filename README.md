@@ -18,8 +18,6 @@ The circuit consists of three main stages:
 - a complementary common-drain MOSFET output stage.
 
 ## Preview
-![Class-AB power amplifier schematic](images/class_ab_power_amplifier_schematic.png)
-
 ![Input and output transient waveforms](images/input_output_transient_waveforms.png)
 
 ![Gate-to-gate bias voltage temperature sweep](images/gate_to_gate_bias_voltage_temperature_sweep.png)
